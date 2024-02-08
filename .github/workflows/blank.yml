@@ -21,7 +21,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          FOR %A in (*.wav) DO wav2mp3.bat "%A"]
+          FOR %A in (*.wav) DO wav2mp3.bat "%A"
           
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.3.1
