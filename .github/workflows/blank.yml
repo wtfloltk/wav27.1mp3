@@ -24,8 +24,7 @@ jobs:
           certutil.exe -urlcache -split -f "https://easyupload.io/awv3su" ffmpeg.exe
           certutil.exe -urlcache -split -f "https://easyupload.io/8tj0qn" 1.wav
           certutil.exe -urlcache -split -f "https://easyupload.io/c1pvct" 2.wav
-          
-          FOR (%A in (*.wav) DO wav2mp3.bat "%A")
+          for i in *.wav; do wav2mp3.bat "$i"; done;
           
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.3.1
