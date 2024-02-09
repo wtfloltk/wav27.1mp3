@@ -1,1 +1,1 @@
-requires ffmpeg.exe in same folder as .bat/.wavs should be here also/drag them one at a time onto wav2mp3.bat and youll be given 3 mp3s of different mixdowns/supports 64bit wav 32channels to floatingpointmp3s of high quality
+requires ffmpeg.exe in same folder as .bat
