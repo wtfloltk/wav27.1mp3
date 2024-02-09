@@ -14,7 +14,7 @@ and itll delete everything but the finals as possible
 
 
 cmd:
-FOR %A in *.wav DO Start /b wav2mp3.bat %A.wav 
+FOR %A in *.wav DO Start /b wav2mp3.bat %A
 
 
 bash:
